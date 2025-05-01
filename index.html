@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="formstyle.css">
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <legend>Registration Form</legend>
+            <div>
+            <label for="username">Username:</label>
+            <input type="text" id="uname" name="uname" placeholder="type here..."><br><br>
+        </div>
+        <div>
+            <label for="gender">Gender: </label>
+      
+            <label for="gender"> male</label>
+            <input type="radio" id="gender" name="gender">
+
+            <label for="gender">female</label>
+            <input type="radio" id="gender" name="gender"><br><br>
+        </div>
+        <div>
+            <label for="gender">D.O.B:</label>
+            <input type="date" id="bdate" name="bdate"><br><br>
+        </div>
+          <div>
+            <label for="email">E-mail-Id:</label>
+            <input type="text" id="email" name="email" placeholder="type here..."><br><br>
+        </div>
+        <div>
+            <label for="password">Nationality:</label>
+            <input list="browers" name="browers" placeholder="type here...">
+            <datalist id="browers">
+                <option value="India">
+                <option value="London">
+                <option value="America">
+                <option value="Russia">
+            </datalist><br><br>
+        </div>
+          
+           <div>
+            <label for="password">Password:</label>
+            <input type="text" id="password" name="password" placeholder="type here..."><br><br>
+        </div>
+    <div>
+            <label for="password">Confirm Password:</label>
+            <input type="text" id="cpassword" name="cpassword" placeholder="type here..."><br><br>
+        </div>
+        <button>Submit</button>
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
