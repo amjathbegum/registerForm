@@ -1,6 +1,8 @@
+
+
 fieldset {
     background-color: #eeeeee;
-    text-align: center;
+
   }
   
   legend {
@@ -8,6 +10,14 @@ fieldset {
     color: white;
     padding: 5px 10px;
   
+  }
+
+  form{
+    width: 400px;
+    margin: 20vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
   }
   
   input {
