@@ -40,11 +40,18 @@ fieldset {
     font-size: 20px;
     width:100;
   }
-
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
   .input-group input{
     border-radius: 5px;
-    font-size: 20px;
-    margin-top: 5px;
-    padding: 10px;
+    font-size: 15px;
+    margin-top: 3px;
+    padding: 5px;
     border:1px solid gray;
+  }
+  .input-group input:focus{
+    outline: 0;
   }
